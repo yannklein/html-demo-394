@@ -1,6 +1,6 @@
+/*Fonts and Colors*/
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Open+Sans:400,700&display=swap');
 
-/*Fonts and colors*/
 body {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
@@ -10,72 +10,63 @@ body {
 
 h1, h2 {
   font-family: 'Noto Sans', sans-serif;
-  color: #856c8b;
+  color: #8F95D2;
 }
 
 h1 {
   font-size: 40px;
-  font-weight: bolder;
 }
 
 h2 {
-  font-weight: 400;
+  font-weight: normal;
 }
-
 
 a {
   text-decoration: none;
 }
 
-
-/*Customized style*/
-.card-white {
-    width: 600px;
-    margin: 56px auto;
-    background-color: white;
-    box-shadow: 0 0 16px rgba(0,0,0,0.1);
-    padding: 24px;
-    border-radius: 4px;
+/*Customized styling*/
+.card {
+  width: 600px;
+  margin: 40px auto;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  padding: 24px;
 }
 
-.button-red {
-    padding: 16px 24px;
-    display: inline-block;
-    border-radius: 4px;
-    box-shadow: 0 0 8px rgba(0,0,0,0.1);
-    color: white;
-    background-color: #a4c5c6;
-    transition: background-color 0.3s;
+.img-circle {
+  width: 120px;
+  border-radius: 50%;
+  height: 120px;
+  object-fit: cover;
+  object-position: 100% 50%;
 }
 
-.button-red:hover {
-  background-color: #7c9393;
+.button-blue {
+  padding: 16px 24px;
+  display: inline-block;
+  border-radius: 4px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  background-color: #89DAFF;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.button-blue:hover {
+  background-color: #64a0ba;
   box-shadow: 0 0 8px rgba(0,0,0,0.2);
 }
 
-.avatar {
-    width: 160px;
-    border-radius: 50%;
-    height: 160px;
-    object-fit: cover;
-    object-position: 100% 40%;
-}
-
-.footer-inline {
+.list-inline {
   list-style: none;
   padding: 0;
 }
 
-.footer-inline li {
+.list-inline li {
   display: inline;
 }
 
-.footer-inline a {
-  font-size: 40px;
+.list-inline a {
+  font-size: 64px;
   margin: 8px;
   color: rgb(80,80,80);
-}
-
-.footer-inline a:hover {
-  color: rgb(40,40,40);
 }
